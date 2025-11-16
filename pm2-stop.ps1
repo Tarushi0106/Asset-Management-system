@@ -1,16 +1,14 @@
-# PM2 Stop Script for Asset Management System
-# This script stops all PM2-managed services
+
 
 Write-Host "======================================" -ForegroundColor Cyan
 Write-Host "Asset Management System - PM2 Stop" -ForegroundColor Cyan
 Write-Host "======================================" -ForegroundColor Cyan
 Write-Host ""
 
-# Navigate to project root
+
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $projectRoot
 
-# Stop all PM2 services
 Write-Host "Stopping all PM2 services..." -ForegroundColor Yellow
 pm2 stop all
 

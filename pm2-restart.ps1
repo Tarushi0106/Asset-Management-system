@@ -1,5 +1,3 @@
-# PM2 Restart Script for Asset Management System
-# This script restarts all PM2-managed services
 
 param(
     [string]$App = 'all'
@@ -10,11 +8,11 @@ Write-Host "Asset Management System - PM2 Restart" -ForegroundColor Cyan
 Write-Host "======================================" -ForegroundColor Cyan
 Write-Host ""
 
-# Navigate to project root
+
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $projectRoot
 
-# Restart services
+
 Write-Host "Restarting PM2 service: $App..." -ForegroundColor Yellow
 pm2 restart $App
 
