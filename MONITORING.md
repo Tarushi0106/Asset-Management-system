@@ -1,6 +1,8 @@
-# Monitoring Stack Documentation
+# Removed: See `README.md`
 
-This document describes the monitoring infrastructure for the Asset Management System using Prometheus, Grafana, Node Exporter, and cAdvisor.
+This file has been removed from the active documentation. The main `README.md` at the repository root is the single canonical document to use.
+
+If you need the original content back, retrieve it from the git history.
 
 ## Architecture Overview
 

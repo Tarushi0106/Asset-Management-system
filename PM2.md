@@ -1,6 +1,8 @@
-# PM2 Process Management Documentation
+# Removed: See `README.md`
 
-## Overview
+This file has been removed from the active documentation. The main `README.md` at the repository root is the single canonical document to use.
+
+If you need the original content back, retrieve it from the git history.
 
 PM2 is a production-grade process manager for Node.js applications that provides:
 - **Auto-restart** on process crash

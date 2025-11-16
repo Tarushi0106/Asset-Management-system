@@ -1,6 +1,8 @@
-# 📖 START HERE - Documentation Entry Points
+# Removed: See `README.md`
 
-## For First-Time Users
+This file has been removed from the active documentation. The main `README.md` at the repository root is the single canonical document to use.
+
+If you need the original content back, retrieve it from the git history.
 
 ### ⭐ **Quick Start (5 minutes)**
 Read: [`QUICK_START.md`](QUICK_START.md)
