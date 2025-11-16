@@ -12,6 +12,11 @@ const JWT_SECRET = 'your_jwt_secret_key_here';
 app.use(cors());
 app.use(express.json());
 
+// Health check endpoint
+app.get('/', (req, res) => {
+  res.json({ status: 'Server is running', version: '1.0.0', timestamp: new Date().toISOString() });
+});
+
 const db = new sqlite3.Database(':memory:');
 
 db.serialize(() => {

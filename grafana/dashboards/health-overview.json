@@ -1,0 +1,33 @@
+{
+  "uid": "health-overview",
+  "title": "Health Overview",
+  "description": "System and container health status",
+  "tags": ["health", "monitoring"],
+  "timezone": "browser",
+  "schemaVersion": 16,
+  "version": 1,
+  "refresh": "10s",
+  "time": { "from": "now-6h", "to": "now" },
+  "timepicker": { "hidden": false },
+  "panels": [
+    {
+      "id": 1,
+      "type": "stat",
+      "title": "Prometheus Targets Up",
+      "targets": [
+        { "expr": "sum(up) by (job)", "refId": "A" }
+      ],
+      "gridPos": {"x": 0, "y": 0, "w": 8, "h": 4},
+      "options": { "colorMode": "value", "graphMode": "area" }
+    },
+    {
+      "id": 2,
+      "type": "table",
+      "title": "All Instances Status",
+      "targets": [
+        { "expr": "up", "refId": "A" }
+      ],
+      "gridPos": {"x": 8, "y": 0, "w": 16, "h": 8}
+    }
+  ]
+}

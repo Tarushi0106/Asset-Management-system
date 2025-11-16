@@ -1,0 +1,20 @@
+groups:
+  - name: general.rules
+    rules:
+      - alert: InstanceDown
+        expr: up == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Instance {{ $labels.instance }} down"
+          description: "No response from {{ $labels.instance }} for more than 1 minute."
+
+      - alert: HighDockerRestartRate
+        expr: increase(container_last_seen[5m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Docker container restart detected"
+          description: "One or more containers appear to have restarted recently."
