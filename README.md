@@ -325,6 +325,9 @@ docker compose logs backend
 docker compose logs frontend
 ```
 
+**Docker Desktop Images & Containers:**
+![Docker Desktop Images](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/docker-images.png)
+
 **Access Points:**
 - **Frontend**: `http://localhost:80`
 - **Backend API**: `http://localhost:5000` (via Nginx reverse proxy)
