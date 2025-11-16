@@ -397,6 +397,9 @@ curl -X GET http://localhost:5000/
 # Response: {"status":"Server is running","version":"1.0.0"}
 ```
 
+**Backend Server Running:**
+![Backend Health Check](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/backend-health.png)
+
 #### Authentication Endpoint
 
 ```bash
@@ -438,6 +441,12 @@ npm run dev
 # Test UI components and interactions
 ```
 
+**Frontend Asset Manager Application:**
+![Frontend Asset Manager](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/frontend-app.png)
+
+**Frontend Login Interface:**
+![Frontend Login](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/frontend-login.png)
+
 ---
 
 ## Monitoring
@@ -453,6 +462,9 @@ npm run dev
 # Or manually:
 pm2 monit
 ```
+
+**PM2 Monitoring in VS Code Terminal:**
+![PM2 Logs and Status](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/pm2-logs.png)
 
 #### Check Process Status
 
@@ -506,18 +518,25 @@ node_filesystem_avail_bytes
 **URL**: `http://localhost:3001`  
 **Login**: admin / admin
 
+**Grafana Login Interface:**
+![Grafana Login](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/grafana-login.png)
+
 **Pre-configured Dashboards:**
 
-1. **Health Overview**
+1. **Health Overview Dashboard**
    - Target status (up/down)
    - Service availability
    - Real-time alerts
 
-2. **Node Exporter Host Metrics**
+![Health Overview Dashboard](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/grafana-health-overview.png)
+
+2. **Node Exporter Host Metrics Dashboard**
    - CPU usage
    - Memory usage
    - Disk I/O
    - Network traffic
+
+![Node Exporter Metrics Dashboard](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/grafana-node-exporter.png)
 
 #### Alert Management
 
@@ -527,6 +546,9 @@ Prometheus includes alerting rules defined in `prometheus/rules.yml`:
 - **HighDockerRestartRate**: Container restarting frequently
 
 View active alerts at: `http://localhost:9090/alerts`
+
+**Prometheus Alerts Dashboard:**
+![Prometheus Alerts](https://raw.githubusercontent.com/Tarushi0106/Asset-Management-system/main/docs/prometheus-alerts.png)
 
 ---
 
