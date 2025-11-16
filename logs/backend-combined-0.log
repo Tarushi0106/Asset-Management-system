@@ -1,0 +1,268 @@
+Error: Cannot find module 'express'
+Require stack:
+- E:\Asset management system\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Hook._require.Module.require (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'E:\\Asset management system\\backend\\server.js' ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- E:\Asset management system\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Hook._require.Module.require (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'E:\\Asset management system\\backend\\server.js' ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- E:\Asset management system\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Hook._require.Module.require (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'E:\\Asset management system\\backend\\server.js' ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- E:\Asset management system\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Hook._require.Module.require (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'E:\\Asset management system\\backend\\server.js' ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- E:\Asset management system\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Hook._require.Module.require (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'E:\\Asset management system\\backend\\server.js' ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- E:\Asset management system\backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Hook._require.Module.require (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'E:\\Asset management system\\backend\\server.js' ]
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (E:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (E:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (E:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (E:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (e:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (e:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (e:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (e:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (e:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (e:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (e:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (e:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (e:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (e:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (e:\Asset management system\backend\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (e:\Asset management system\backend\server.js:195:7)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at Object.<anonymous> (C:\Users\Tarushi Chaudhary\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Server running on port 5000
+Server running on port 5000
