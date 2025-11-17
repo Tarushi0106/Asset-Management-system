@@ -19,79 +19,62 @@ function App() {
   const [message, setMessage] = useState({ text: '', type: '' });
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    const userData = localStorage.getItem('user');
-    if (token && userData) {
-      setUser(JSON.parse(userData));
-      fetchAssets(token);
-    }
-  }, []);
+    const token = localStorage.getItem("token");
+    const userData = localStorage.getItem("user");
 
-  useEffect(() => {
-    if (user) {
-      fetchAssets();
-    }
-  }, [filters]);
-
-  const fetchAssets = async () => {
-    setLoading(true);
+    if (!user && token && userData) setUser(JSON.parse(userData));
+    if (user) fetchAssets(token);
+  }, [user, filters]);
+ 
+  const fetchAssets = async (token) => {
     try {
-      const token = localStorage.getItem('token');
-      const params = new URLSearchParams();
-      if (filters.category) params.append('category', filters.category);
-      if (filters.status) params.append('status', filters.status);
-      if (filters.search) params.append('search', filters.search);
-
-      const response = await axios.get(`${API_BASE}/assets?${params}`, {
+      setLoading(true);
+      const params = new URLSearchParams(filters);
+      const res = await axios.get(`${API_BASE}/assets?${params}`, {
         headers: { Authorization: `Bearer ${token}` }
       });
-      setAssets(response.data);
-    } catch (err) {
-      showMessage('Failed to fetch assets', 'error', setMessage);
+      setAssets(res.data);
+    } catch {
+      showMessage("Failed to fetch assets", "error", setMessage);
     } finally {
       setLoading(false);
     }
   };
 
-  const handleLogin = (userData) => {
-    setUser(userData);
-    showMessage('Login successful!', 'success', setMessage);
+  const handleLogin = (data) => {
+    setUser(data);
+    showMessage("Login successful!", "success", setMessage);
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('token');
-    localStorage.removeItem('user');
+    localStorage.clear();
     setUser(null);
     setAssets([]);
   };
 
-  const handleAssetCreate = (newAsset) => {
-    setAssets([newAsset, ...assets]);
+  const handleAssetCreate = (asset) => {
+    setAssets([asset, ...assets]);
     setShowAssetForm(false);
-    showMessage('Asset created successfully!', 'success', setMessage);
+    showMessage("Asset created!", "success", setMessage);
   };
 
-  const handleAssetUpdate = (updatedAsset) => {
-    setAssets(assets.map(asset => asset.id === updatedAsset.id ? updatedAsset : asset));
-    setShowAssetForm(false);
+  const handleAssetUpdate = (asset) => {
+    setAssets(assets.map(a => a.id === asset.id ? asset : a));
     setEditingAsset(null);
-    showMessage('Asset updated successfully!', 'success', setMessage);
+    setShowAssetForm(false);
+    showMessage("Updated successfully!", "success", setMessage);
   };
 
-  const handleAssetDelete = (assetId) => {
-    setAssets(assets.filter(asset => asset.id !== assetId));
-    showMessage('Asset deleted successfully!', 'success', setMessage);
+  const handleAssetDelete = (id) => {
+    setAssets(assets.filter(a => a.id !== id));
+    showMessage("Deleted!", "success", setMessage);
   };
 
   if (!user) {
     return (
       <div className="app">
         <LoginForm onLogin={handleLogin} />
-        {message.text && (
-          <div className={`message message-${message.type}`}>
-            {message.text}
-          </div>
-        )}
+        {message.text && <div className={`message message-${message.type}`}>{message.text}</div>}
       </div>
     );
   }
@@ -99,38 +82,24 @@ function App() {
   return (
     <div className="app">
       <Navbar user={user} onLogout={handleLogout} />
-      
+
       <main className="main-content">
-        {message.text && (
-          <div className={`message message-${message.type}`}>
-            {message.text}
-          </div>
-        )}
+        {message.text && <div className={`message message-${message.type}`}>{message.text}</div>}
 
         <div className="content-header">
-          <div className="header-text">
+          <div>
             <h1>Asset Management</h1>
             <p>Manage your organization's assets efficiently</p>
           </div>
-          <button
-            className="btn btn-primary"
-            onClick={() => {
-              setEditingAsset(null);
-              setShowAssetForm(true);
-            }}
-          >
-            <span className="btn-icon">+</span>
-            Add New Asset
+          <button className="btn btn-primary" onClick={() => { setEditingAsset(null); setShowAssetForm(true); }}>
+            + Add New Asset
           </button>
         </div>
 
         <FilterBar filters={filters} onFilterChange={setFilters} />
 
         {loading ? (
-          <div className="loading-state">
-            <div className="loading-spinner"></div>
-            <p>Loading assets...</p>
-          </div>
+          <p>Loading assets...</p>
         ) : (
           <div className="assets-grid">
             {assets.map(asset => (
@@ -145,11 +114,10 @@ function App() {
           </div>
         )}
 
-        {assets.length === 0 && !loading && (
+        {!loading && assets.length === 0 && (
           <div className="empty-state">
-            <div className="empty-icon">📊</div>
             <h3>No assets found</h3>
-            <p>Get started by creating your first asset</p>
+            <p>Create your first asset</p>
           </div>
         )}
       </main>
@@ -157,13 +125,10 @@ function App() {
       {showAssetForm && (
         <AssetForm
           asset={editingAsset}
-          onClose={() => {
-            setShowAssetForm(false);
-            setEditingAsset(null);
-          }}
+          onClose={() => { setShowAssetForm(false); setEditingAsset(null); }}
           onCreate={handleAssetCreate}
           onUpdate={handleAssetUpdate}
-          onError={(error) => showMessage(error, 'error', setMessage)}
+          onError={(e) => showMessage(e, "error", setMessage)}
         />
       )}
     </div>
